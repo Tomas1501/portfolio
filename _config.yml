@@ -1,2 +1,3 @@
 remote_theme: mmistakes/minimal-mistakes
-title: [Tomasz Bartkowiak portfolio]
+plugins: [jekyll-include-cache]
+
