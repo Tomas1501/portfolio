@@ -1,8 +1,8 @@
 title: "Tomasz Bartkowiak"
 name: "Tomasz Bartkowiak"
 description: "Senior Access Network Engineer → Data Science | ML/AI w telco"
-url: "https://USERNAME.github.io"
-baseurl: ""
+url: "https://tomas1501.github.io"
+baseurl: "/portfolio"   # bo strona jest pod repo 'portfolio'
 locale: "pl-PL"
 
 remote_theme: "mmistakes/minimal-mistakes"
