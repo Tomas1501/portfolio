@@ -1,3 +1,65 @@
-remote_theme: mmistakes/minimal-mistakes
-plugins: [jekyll-include-cache]
+title: "Tomasz Bartkowiak"
+name: "Tomasz Bartkowiak"
+description: "Senior Access Network Engineer → Data Science | ML/AI w telco"
+url: "https://USERNAME.github.io"
+baseurl: ""
+locale: "pl-PL"
 
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Twoje Imię i Nazwisko"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "I am an experienced engineer with 15+ years in telecommunications, now deepening expertise in data analysis, machine learning, and AI. Senior Access Network Engineer responsible for planning/optimization, and data extraction/processing with SQL and Python. I also use GIS for network visualization. Interests: integrating DS/ML with network infra, Python automation, and decision-support systems. Currently pursuing postgraduate studies “Data Analysis – Data Science with elements of AI” at WSB Merito University in Wrocław. Open to ML/AI/automation projects blending deep technical know‑how with modern analytics."
+  location: "Wrocław, Polska"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:twoj.email@domena.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/USERNAME"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/USERNAME/"
+    - label: "Streamlit"
+      icon: "fas fa-fw fa-link"
+      url: "https://twoja-aplikacja-streamlit"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-briefcase"
+      url: "/projects/"
+
+nav:
+  - title: "O mnie"
+    url: /about/
+  - title: "Projekty"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Kontakt"
+    url: /contact/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
+      share: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: false
